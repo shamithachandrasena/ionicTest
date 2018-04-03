@@ -8,7 +8,7 @@ import { NavController, NavParams } from 'ionic-angular';
 export class HomePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.navCtrl.push("SecondPage");
+  
   }
   
    nextPage(): void{
